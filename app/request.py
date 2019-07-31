@@ -3,14 +3,14 @@ import urllib.request,json
 from .models import Movie
 
 #Getting the API key
-api_key = None
+api_key = '53484a41a25b39d53b7b490c5feaf4e9'
 
 #Getting the movie base url
 base_url = None
 
 def configure_request(app):
-    global base_url, api_key
-    api_key = app.config['MOVIE_API_KEY']
+    global base_url
+    #api_key = app.config['MOVIE_API_KEY']
     base_url = app.config['MOVIE_API_BASE_URL']
 
 #getting data from the API
