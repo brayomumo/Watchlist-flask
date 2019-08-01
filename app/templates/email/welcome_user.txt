@@ -1,0 +1,5 @@
+Hello {{user.username}}
+Welcome to Watchlist
+We have just seen you signed up for our application and wanto to welcome you to the family. Please enjoy the reviews of all your favourite films and dont forget to create you own watchlist.
+
+                WELCOME :)
